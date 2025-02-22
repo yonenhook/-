@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang='ru'>
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Магазин пончиков</title>
+    <style>
+        /* Стили пиши здесь :) */
+        body {
+            font-family: sans-serif;
+            text-align: center;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh; /* Чтобы контент был по центру по вертикали */
+        }
+
+        h1 {
+            margin-bottom: 20px;
+            color: #e47298; /* Розовый цвет для заголовка */
+            font-size: 3em;
+        }
+
+        img {
+            max-width: 300px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Тень для изображения */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Мир пончиков</h1>
+        <img src="/uploads/2023/02/donut.png" alt="Пончик">
+    </div>
+</body>
+</html>
